@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">UAS_Mobie</string>
+    <string name="hello_vinee">"Hello, Vineetha "</string>
+    <string name="hallo_vine">Hello, Vineetha</string>
+    <string name="kata_pada_d">Where do you \nwant to explore today?</string>
+    <string name="search">Search</string>
+    <string name="choose_state">Choose Category</string>
+    <string name="see_all">see all</string>
+    <string name="beach">Beach</string>
+    <string name="montain">Montain</string>
+</resources>

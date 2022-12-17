@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/_bg__dashboard"
+        android:layout_width="414dp"
+        android:layout_height="736dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/_bg__dashboard_shape"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/_bg__frame_33840"
+        android:layout_width="414dp"
+        android:layout_height="736dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/_bg__frame_33840_shape"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/ellipse_1"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/ellipse_1"
+        tools:ignore="MissingConstraints" />
+
+    <!-- Hello, Vineetha -->
+    <TextView
+        android:id="@+id/hello_vinee"
+        android:layout_width="118dp"
+        android:layout_height="22dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center_horizontal|top"
+        android:lineSpacingExtra="1sp"
+        android:text="@string/hallo_vine"
+        android:textAppearance="@style/hello_vinee"
+        android:translationY="-0.71sp"
+        tools:ignore="MissingConstraints" />
+
+    <!-- Kata pada dashboard -->
+    <TextView
+        android:id="@+id/kata_pada_d"
+        android:layout_width="279dp"
+        android:layout_height="72dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="62dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:gravity="top"
+        android:text="@string/kata_pada_d"
+        android:textAppearance="@style/kata_pada_d" />
+
+    <!-- Search Bar -->
+    <RelativeLayout
+        android:id="@+id/search_bar"
+        android:layout_width="342dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="164dp"
+        android:background="@drawable/search_bar">
+
+        <TextView
+            android:id="@+id/search"
+            android:layout_width="132dp"
+            android:layout_height="46dp"
+            android:layout_alignParentStart="false"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="2dp"
+            android:fontFamily="@font/inter_medium"
+            android:gravity="start|center_horizontal|center_vertical"
+            android:paddingStart="2dp"
+            android:text="@string/search"
+            android:textAlignment="gravity"
+            android:textAppearance="@style/search"
+            android:textColor="#546E7A" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/text_pilih_"
+        android:layout_width="341dp"
+        android:layout_height="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="242dp"
+        android:background="@drawable/text_pilih_">
+
+        <TextView
+            android:id="@+id/choose_cate"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/inter_medium"
+            android:gravity="center_vertical"
+            android:text="@string/choose_state"
+            android:textAlignment="gravity"
+            android:textAppearance="@style/choose_cate" />
+
+        <!-- See all -->
+        <TextView
+            android:id="@+id/see_all"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/inter_medium"
+            android:gravity="center_vertical|end"
+            android:text="@string/see_all"
+            android:textAlignment="gravity"
+            android:textAppearance="@style/see_all" />
+    </RelativeLayout>
+
+    <!-- Choose Category -->
+    <!-- Kategori Beach -->
+    <RelativeLayout
+        android:id="@+id/kategori_be"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="281dp"
+        android:background="@drawable/kategori_be">
+
+        <View
+            android:id="@+id/image_1648"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="27.5dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/image_1648"
+            android:elevation="10dp" />
+
+        <!-- Beach -->
+        <TextView
+            android:id="@+id/beach"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="77.5dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal|top"
+            android:lineSpacingExtra="7sp"
+            android:text="@string/beach"
+            android:textAppearance="@style/beach"
+            android:translationY="-3.4sp" />
+
+    </RelativeLayout>
+
+    <!-- Kategori Mountain -->
+    <RelativeLayout
+        android:id="@+id/kategori_mo"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="210dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="281dp"
+        android:background="@drawable/kategori_mo">
+
+        <View
+            android:id="@+id/img"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="15.5dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/img"
+            android:elevation="15dp" />
+
+        <!-- Mountain -->
+        <TextView
+            android:id="@+id/mountain"
+            android:layout_width="69dp"
+            android:layout_height="26dp"
+            android:layout_marginStart="65.5dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal|top"
+            android:lineSpacingExtra="7sp"
+            android:text="@string/montain"
+            android:textAppearance="@style/mountain"
+            android:translationY="-3.4sp" />
+    </RelativeLayout>
+
+</RelativeLayout>
+
+
+
