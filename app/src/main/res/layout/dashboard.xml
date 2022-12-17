@@ -86,7 +86,7 @@
             android:layout_marginBottom="2dp"
             android:fontFamily="@font/inter_medium"
             android:gravity="start|center_horizontal|center_vertical"
-            android:paddingStart="2dp"
+            android:padding="2dp"
             android:text="@string/search"
             android:textAlignment="gravity"
             android:textAppearance="@style/search"
@@ -193,6 +193,82 @@
             android:text="@string/montain"
             android:textAppearance="@style/mountain"
             android:translationY="-3.4sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/frame_33839"
+        android:layout_width="414dp"
+        android:layout_height="250dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="371dp"
+        android:background="@drawable/frame_33839"
+
+        >
+
+
+        <RelativeLayout
+            android:id="@+id/list_destin"
+            android:layout_width="186dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="9dp"
+            android:layout_marginTop="-8dp"
+            android:background="@drawable/home_image"
+
+            >
+
+            <RelativeLayout
+                android:id="@+id/desc"
+                android:layout_width="154dp"
+                android:layout_height="79dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="149.5dp"
+                android:background="@drawable/desc">
+
+                <TextView
+                    android:id="@+id/kuta_beach"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:fontFamily="@font/Urbanist_SemiBold"
+                    android:gravity="top"
+                    android:lineSpacingExtra="6sp"
+                    android:text="@string/kuta_beach"
+                    android:textAppearance="@style/kuta_beach"
+                    android:textFontWeight="600"
+                    android:textSize="20sp"
+                    android:translationY="-3sp" />
+
+                <RelativeLayout
+                    android:id="@+id/location"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="35dp"
+                    android:background="@drawable/location">
+
+                    <View
+                        android:id="@+id/location_1"
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"
+                        android:background="@drawable/location_1" />
+
+                    <TextView
+                        android:id="@+id/bali_indone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="25dp"
+                        android:gravity="center_vertical"
+                        android:lineSpacingExtra="11sp"
+                        android:layout_marginStart="21dp"
+                        android:text="@string/bali_indone"
+                        android:textAppearance="@style/bali_indone"
+                        android:translationY="-5.3sp" />
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
     </RelativeLayout>
 
 </RelativeLayout>
