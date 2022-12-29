@@ -3,6 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android/Mobile_UAS/app/src/main/res/drawable/dashboard.xml" value="0.34" />
+        <entry key="..\:/Android/Mobile_UAS/app/src/main/res/drawable/frame_33839.xml" value="0.2865" />
+        <entry key="..\:/Android/Mobile_UAS/app/src/main/res/drawable/kategori_be.xml" value="0.34" />
+        <entry key="..\:/Android/Mobile_UAS/app/src/main/res/drawable/lamp_shape.xml" value="0.34" />
+        <entry key="..\:/Android/Mobile_UAS/app/src/main/res/drawable/list_destin.xml" value="0.34" />
+        <entry key="..\:/Android/Mobile_UAS/app/src/main/res/drawable/list_destin2.xml" value="0.34" />
+        <entry key="..\:/Android/Mobile_UAS/app/src/main/res/drawable/rectangle_8.xml" value="0.34" />
+        <entry key="..\:/Android/Mobile_UAS/app/src/main/res/layout/activity_main.xml" value="0.31567028985507245" />
+        <entry key="..\:/Android/Mobile_UAS/app/src/main/res/layout/baga_beach.xml" value="0.28125" />
+        <entry key="..\:/Android/Mobile_UAS/app/src/main/res/layout/dashboard.xml" value="0.22" />
+        <entry key="..\:/Android/Mobile_UAS/app/src/main/res/layout/kuta_beach.xml" value="0.25" />
         <entry key="..\:/Perkuliahan/semester-3/mobile/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.137" />
         <entry key="..\:/Perkuliahan/semester-3/mobile/app/src/main/res/drawable/_bg__dashboard_shape.xml" value="0.241" />
         <entry key="..\:/Perkuliahan/semester-3/mobile/app/src/main/res/drawable/_bg__frame_33840_shape.xml" value="0.136" />
